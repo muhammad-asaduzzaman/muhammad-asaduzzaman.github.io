@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Lambton Tower, Room Number: 8114</p>
+    <p>455 Sunset Ave</p>
+    <p>Windsor, ON N9B 3P4</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
