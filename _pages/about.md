@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Lambton Tower, Room Number: 8114</p>
+    <p>Lambton Tower (LT. 8114)</p>
     <p>455 Sunset Ave</p>
     <p>Windsor, ON N9B 3P4</p>
 
