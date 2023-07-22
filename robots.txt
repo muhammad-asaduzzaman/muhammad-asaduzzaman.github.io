@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://muhammad-asaduzzaman.github.io/al-folio/sitemap.xml
+Sitemap: https://muhammad-asaduzzaman.github.io/sitemap.xml
