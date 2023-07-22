@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.uwindsor.ca/science/computerscience/'>Assistant Professor, School of Computer Science, University of Windsor</a>
 
 profile:
   align: right
