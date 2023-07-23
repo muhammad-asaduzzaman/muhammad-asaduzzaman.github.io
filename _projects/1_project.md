@@ -58,10 +58,11 @@ The following command line options are available to work with LHdiff:
 
 Usage Example
 ---
+```
     usage: java -jar lhdiff.jar [-i] [-k candidateSetSize] [-p contextWeight Threshold] 
     [-cnm contentMetric][-cxm contextMetric] [-cxs contextSize] [-ls lineSplit] 
     [-ob outputBoth] oldfile newfile
----
+```
 
 You can also type help in the command line to learn details about different options available within LHDiff.
 
