@@ -55,6 +55,11 @@ java -jar lhdiff.jar
 The tool requires Java runtime environment which can be downloaded from here.
 
 The following command line options are available to work with LHdiff:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/lhdiff_configurations.png" title="available configurations in lhdiff" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 Usage Example
 ---
@@ -65,10 +70,9 @@ Usage Example
 ```
 
 You can also type help in the command line to learn details about different options available within LHDiff.
-
----
+```
     usage: java -jar lhdiff.jar help
----
+```
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
