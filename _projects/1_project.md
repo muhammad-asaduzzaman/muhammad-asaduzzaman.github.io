@@ -63,10 +63,10 @@ Usage Example
     [-ob outputBoth] oldfile newfile
 ---
 
-You can also type help in the command line to learn details about different options available withing LHDiff.
----
-usage: java -jar lhdiff.jar help
----
+You can also type help in the command line to learn details about different options available within LHDiff.
+    ---
+    usage: java -jar lhdiff.jar help
+    ---
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
