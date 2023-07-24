@@ -4,7 +4,7 @@ title: FEMIR
 description: A Tool for Recommending Framework Extension Examples
 img: /assets/img/femir_completion.png
 importance: 3
-category: fun
+category: work
 ---
 
 Software frameworks enable developers to reuse existing well-tested functionalities instead of taking the burden of implementing everything from scratch. However, to meet application-specific requirements, the frameworks need to be customized via extension points. This is often done by passing a framework-related object as an argument to an API call. To enable such customizations, the object can be created by extending a framework class, implementing an interface, or changing the properties of the object via API calls. However, it is both a common and non-trivial task to find all the details related to the customizations. While tutorials and documentation can provide a solution to the problem, they are difficult to create and maintain. Our tool FEMIR addresses this problem. It utilizes partial program analysis and graph mining techniques to detect, group, and rank framework extension examples. The tool extends existing code completion infrastructure to inform developers about customization choices, enabling them to browse through extension points of a framework, and frequent usages of each point in terms of code examples.
