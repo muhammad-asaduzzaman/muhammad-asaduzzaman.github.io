@@ -2,7 +2,7 @@
 layout: page
 title: FEMIR
 description: Framework Extension Miner and Recommender: A Tool for Recommending Framework Extension Examples
-img:/assets/img/femir_completion.png
+img: /assets/img/femir_completion.png
 importance: 3
 category: fun
 ---
