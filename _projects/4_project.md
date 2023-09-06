@@ -131,7 +131,5 @@ Q: What is a framework extension graph?
 A framework extension graph describes how a framework extension point is used.
 Figure 6 shows an example of a framework extension graph where a developer uses the TreeCellRenderer extension point. Here, the developer registers an instance of the DefaultTreeCellRenderer class using the setCellRenderer method argument of an instance of the framework class JTree. To customize the behavior the developer calls methods on the object of the  DefaultTreeCellRenderer class.
 FEMIR analyzes API method calls that have at least one parameter and is related to the target framework type. Thus, the argument to the method call can be a framework class object. Alternatively, it can be created by extending a framework class, implementing framework interfaces or a combination of both. FEMIR then generates the graph structure by considering the receiver variable, the method call, the parameter, the argument, and those methods that are called on the receiver or argument variable. If the receiver or the argument is created by extending framework classes or implementing framework interfaces, FEMIR considers the extended classes, implemented interfaces, overridden methods and methods that are called in overridden method bodies to generate the framework extension graph.
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    
 </div>
