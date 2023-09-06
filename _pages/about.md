@@ -13,10 +13,10 @@ profile:
     <p>455 Sunset Ave</p>
     <p>Windsor, ON N9B 3P4</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a tenure-track Assistant Professor in the [School of Computer Science](https://www.uwindsor.ca/science/computerscience/), University of Windsor, Canada. Before that, I was an Assistant Professor in the Department of Computer Science at Lakehead University, Canada.
