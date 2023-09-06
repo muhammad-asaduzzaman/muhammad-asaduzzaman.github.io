@@ -135,5 +135,3 @@ FEMIR analyzes API method calls that have at least one parameter and is related 
         {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
