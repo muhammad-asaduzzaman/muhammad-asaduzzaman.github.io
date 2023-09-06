@@ -10,35 +10,6 @@ related_publications: einstein1956investigations, einstein1950meaning
 
 Tracking source code lines between two different versions of a file is a fundamental step for solving several important problems in software maintenance, such as locating bug-introducing changes, tracking code fragments or defects across versions, merging file versions, and software evolution analysis. LHDiff is a language-independent technique for tracking source code lines across versions. It leverages SimHash technique to speed up the line mapping process. Our evaluation of LHDiff with three state-of-the-art techniques using test suites containing different degrees of changes and also with a mutation-based strategy shows a high potential return of our lightweight technique.
 
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
 Consider the following two versions of a source file. Popular file differencing programs (such as Unix diff utility) cannot track lines that are changed or reordered, instead report that those lines are deleted from the old file and new lines are added in the next version of the file. For the above example, diff cannot detect that line 4 of the old file is moved to line 8 in the new file. Instead, reports line 4 as deleted and line 8 as added. LHDiff can correctly establish the mapping between lines 4 and 8. While the above example is a toy example, it shows the importance of LHDiff. If line 4 contains a bug, you can use LHDiff to track the buggy line in the next version to fix it.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
