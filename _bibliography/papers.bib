@@ -17,6 +17,41 @@ author = {Kundi Yao and Gustavo A. Oliva and Ahmed E. Hassan and Muhammad Asaduz
 keywords = {Technical support, Logs, LDA, Multilingual LDA, Topic models},
 abstract = {In the context of technical support, trails of technical discussions often contain a mixture of natural language (e.g., English) and software log excerpts. Uncovering latent links between certain problems and log excerpts that are often requested during the discussions of those problems enables the construction of a valuable knowledge base. Nevertheless, uncovering such latent links is challenging because English and software logs are two fundamentally different languages. In this paper, we investigate the suitability of multilingual LDA models to address the problem at hand. We study three models, namely: enriched LDA (M+), two-layer LDA (M2L), and off-the-shelf bilingual LDA (Mbi). We use approximately 8K discussion threads from a Bleeping Computer forum as our dataset. We observe that M2L performs the best overall, although it yields a substantially coarser-grained view of the discussed themes in the threads (20 topics, 0.3% of the documents). We also note that M+ outperforms Mbi achieving higher coherence, lower perplexity, and higher cross-lingual coverage ratio. We invite future studies to qualitatively assess the quality of the topics produced by the LDA models, such that the feasibility of employing such models in practice can be better determined.}
 }
+@article{9825781,
+  bibtex_show={true},
+  author={Nafi, Kawser Wazed and Asaduzzaman, Muhammad and Roy, Banani and Roy, Chanchal K. and Schneider, Kevin A.},
+  booktitle={2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)}, 
+  title={Mining Software Information Sites to Recommend Cross-Language Analogical Libraries}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={913-924},
+  abstract = {Software development is largely dependent on libraries to reuse existing functionalities instead of reinventing the wheel. Software developers often need to find analogical libraries (libraries similar to ones they are already familiar with) as an analogical library may offer improved or additional features. Developers also need to search for analogical libraries across programming languages when developing applications in different languages or for different platforms. However, manually searching for analogical libraries is a time-consuming and difficult task. This paper presents a technique, called XLibRec, that recommends analogical libraries across different programming languages. XLibRec collects Stack Overflow question titles containing library names, library usage information from Stack Overflow posts, and library descriptions from a third party website, Libraries.io. We generate word-vectors for each information and calculate a weight-based cosine similarity score from them to recommend analogical libraries. We performed an extensive evaluation using a large number of analogical libraries across four different programming languages. Results from our evaluation show that the proposed technique can recommend cross-language analogical libraries with great accuracy. The precision for the Top-3 recommendations ranges from 62-81% and has achieved 8-45% higher precision than the state-of-the-art technique.},
+  doi={10.1109/SANER53432.2022.00109}}
+
+@article{9091233,
+  bibtex_show={true},
+  author={Bhatia, Aaditya and Wang, Shaowei and Asaduzzaman, Muhammad and Hassan, Ahmed E.},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={A Study of Bug Management Using the Stack Exchange Question and Answering Platform}, 
+  year={2022},
+  volume={48},
+  number={2},
+  pages={502-518},
+  abstract={Traditional bug management systems, like Bugzilla, are widely used in open source and commercial projects. Stack Exchange uses its online question and answer (Q&A) platform to collect and manage bugs, which brings several new unique features that are not offered in traditional bug management systems. Users can edit bug reports, use different communication channels, and vote on bug reports, answers, and their associated comments. Understanding how these features manage bug reports can provide insights to the designers of traditional bug management systems, like whether a feature should be introduced? and how would users leverage such a feature? We performed a large-scale analysis of 19,151 bug reports of the bug management system of Stack Exchange and studied the in-place editing, the answering and commenting, and the voting features. We find that: 1) The three features are used actively. 2) 57 percent of the edits improved the quality of bug reports. 3) Commenting provides a channel for discussing bug-related information, while answering offers a channel for explaining the causes of a bug and bug-fix information. 4) Downvotes are made due to the disagreement of the reported “bug” being a real bug and the low quality of bug reports. Based on our findings, we provide suggestions for traditional bug management systems.},
+  doi={10.1109/TSE.2020.2994006}}
+@article{9402371,
+  bibtex_show={true},
+  author={Saifullah, C M Khaled and Asaduzzaman, Muhammad and Roy, Chanchal K.},
+  booktitle={2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)}, 
+  title={COSTER: A Tool for Finding Fully Qualified Names of API Elements in Online Code Snippets}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={73-76},
+  abstract={Code snippets available on question answering sites (e.g., Stack Overflow) are a great source of information for learning how to use APIs. However, it is difficult to determine which APIs are discussed in those code snippets because they often suffer from declaration ambiguities and missing external references. In this paper, we introduce COSTER, a context-sensitive type solver that can determine the fully qualified names (FQNs) of API elements in those code snippets. The tool uses three different similarity measures to rank potential FQNs of a query API element. Results from our quantitative evaluation and user study demonstrate that the proposed tool can not only recommend FQNs of API elements with great accuracy but can also help developers to reuse online code snippets by suggesting the required import statements.},
+  doi={10.1109/ICSE-Companion52605.2021.00039}}
+
 
 @book{einstein1956investigations,
   bibtex_show={true},
